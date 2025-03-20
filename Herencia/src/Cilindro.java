@@ -1,6 +1,11 @@
 public class Cilindro extends circulo{
-    public Cilindro(float radio){
+    private float altura;
+    public Cilindro(float radio, float altura) {
         super(radio);
+        this.altura = altura;
+    }
+    public float area() {
+        return super.area() *altura;
     }
 
 }
