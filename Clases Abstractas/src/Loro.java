@@ -5,6 +5,10 @@ public class Loro extends Pajaro{
         super(nombre, colorplumaje);
         this.idioma = idioma;
         this.raza = raza;
+    }
+    @Override
+    public void cantar() {
+        System.out.println("quiere cacao mi rey?");
     }   
 
 }
